@@ -4,4 +4,5 @@ class Appointment < ActiveRecord::Base
 
   def time
     time = appointment_datetime.strftime("%B %M, %Y at %H:%M")
+  end
 end
